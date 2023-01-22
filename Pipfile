@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.1.5"
+djangorestframework = "==3.14.0"
+django-environ = "==0.9.0"
+psycopg2-binary = "==2.9.5"
+
+[dev-packages]
+isort = "==5.11.4"
+pytest = "==7.2.1"
+pytest-django = "==4.5.2"
+faker = "==16.6.0"
+factory-boy = "==3.2.1"
+flake8 = "*"
+drf-yasg = "*"
+django-silk = "*"
+
+[requires]
+python_version = "3.9"
