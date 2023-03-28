@@ -5,11 +5,8 @@ services:
     image: postgres:13
     container_name: postgres
     restart: always
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
-      POSTGRES_INITDB_ARGS: --encoding=UTF-8
+    env_file:
+      - .env
     volumes:
       - ./config/server/postgres:/var/lib/postgresql/data
     ports:
