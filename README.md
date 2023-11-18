@@ -2,8 +2,8 @@
 > 개인적으로 사용하기 위한 Django + DRF 프로젝트 구조입니다.
 
 ## 1. Dependency
-* python 3.9
-* django 4.1.7
+* python 3.12
+* django 4.2.7
 * djangorestframework 3.14.0
 * flake8
 * black
